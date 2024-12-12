@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style copy.css" />
+</head>
+<body>
+    <div class="frame">           
+        <div class="image">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <img src="user.png" width="70px" height="70px" alt="user" />
+        </div>
+        <form action="signup_process.php" method="POST">
+            <div class="login">
+                <input type="text" name="name" placeholder="Enter Your Full Name?"  style="padding: 0;"/>
+                <input type="text" name="username" placeholder="Enter Your Userame?" style="padding: 0;"/>
+                <input type="password" name="password" placeholder="Enter Your Password" style="padding: 0;"/>
+                <input type="text" name="profession" placeholder="Enter Your Profession" style="padding: 0;"/>
+                <input type="number" name="contact" placeholder="Enter Your Contact" style="padding: 0;">
+            </div>
+            <div class="actions" style="display: flex; flex-direction: row; margin: 0; justify-content: center;">
+                <a href=""><button type="submit" style="margin: 2px;" class="btn">Register</button></a>
+                <a href="main.html"><button class="btn">Login</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
